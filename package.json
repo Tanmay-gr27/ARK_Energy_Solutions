@@ -1,10 +1,23 @@
 {
-  "devDependencies": {
-    "@tailwindcss/postcss": "^4.1.18",
-    "autoprefixer": "^10.4.24",
-    "postcss": "^8.5.6"
+  "name": "ark-energy-solutions",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "lucide-react": "^0.563.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.24",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.1",
+    "vite": "^5.4.1"
   }
 }
